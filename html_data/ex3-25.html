@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>즉시 실행 함수</title>
+    <script>
+        (function(){
+            iife();
+        })();
+        function iife(){
+            console.log('즉시 실행 함수1');
+        }
+        let instant = (function(){
+            console.log('즉시 실행 함수2');
+        })();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

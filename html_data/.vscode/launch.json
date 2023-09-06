@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open mail.html",
-            "file": "d:\\jin_data\\js_data\\html_data\\main1.html"
+            "file": "d:\\jin_data\\js_data\\html_data\\ex3-25.html"
         }
     ]
 }
